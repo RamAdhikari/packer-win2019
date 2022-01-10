@@ -36,6 +36,7 @@
             "numvcpus": "{{user `numvcpus`}}",
             "virtualHW.version": "14",
             "scsi0.virtualDev": "lsisas1068"
+            "scsi1.virtualDev": "lsisas1068"
           }
         },
         {
