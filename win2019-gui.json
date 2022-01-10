@@ -18,6 +18,7 @@
           "boot_wait": "{{user `boot_wait`}}",
           "disk_size": "{{user `disk_size`}}",
           "disk_type_id": "0",
+          "disk_additional_size": "{{user `disk_size`}}",
           "headless": false,
           "iso_checksum": "{{user `iso_checksum`}}",
           "iso_url": "{{user `iso_url`}}",
@@ -36,7 +37,6 @@
             "numvcpus": "{{user `numvcpus`}}",
             "virtualHW.version": "14",
             "scsi0.virtualDev": "lsisas1068"
-            "scsi1.virtualDev": "lsisas1068"
           }
         },
         {
