@@ -19,7 +19,6 @@
           "disk_size": "{{user `disk_size`}}",
           "disk_type_id": "0",
           "disk_additional_size": "{{user `disk_size`}}",
-          "disk_type_id": "1",
           "headless": false,
           "iso_checksum": "{{user `iso_checksum`}}",
           "iso_url": "{{user `iso_url`}}",
