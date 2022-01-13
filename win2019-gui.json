@@ -81,6 +81,10 @@
         "type": "powershell",
         "scripts": ["scripts/setup.ps1"]
       },
+        {
+        "type": "powershell",
+        "scripts": ["scripts/InitializePartitionFormatNewDisks.ps1"]
+      },
       {
         "type": "windows-restart",
         "restart_timeout": "30m"
